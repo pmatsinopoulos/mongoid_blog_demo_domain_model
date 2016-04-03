@@ -4,6 +4,8 @@ require "mongoid_blog_demo_domain_model/version"
 #   # Your code goes here...
 # end
 
+require "mongoid"
+require "mongoid/sadstory"
 require "models/article"
 require "models/author"
 require "models/comment"
