@@ -29,6 +29,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'mongoid', '5.1.2'
   spec.add_dependency 'mongoid-sadstory', '0.0.2'
+  spec.add_dependency 'waterdrop', '0.3.0'
 
   spec.add_development_dependency "bundler", "~> 1.11"
   spec.add_development_dependency "rake", "~> 10.0"
