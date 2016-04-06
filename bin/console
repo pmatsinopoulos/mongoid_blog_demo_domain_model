@@ -10,5 +10,8 @@ require "mongoid_blog_demo_domain_model"
 # require "pry"
 # Pry.start
 
+Mongoid.load!(File.join(File.expand_path('..', __FILE__), "config", "mongoid.yml"))
+
 require "irb"
 IRB.start
+

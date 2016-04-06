@@ -6,9 +6,9 @@ class AuthorManager < ApplicationManager
   end
 
   def create
-    message = WaterDrop::Message.new('test', {resource_type: 'author',
-                                              action:   'create',
-                                              resource: @author}.to_json)
+    message = WaterDrop::Message.new('domain_model', {resource_type: 'author',
+                                                      action:   'create',
+                                                      resource: @author}.to_json)
     message.send!
     true
   end
